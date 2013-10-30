@@ -18,7 +18,8 @@ gem 'pg',     group: :postgres
 gem 'settingslogic'
 
 # Web server
-gem "puma", "~> 2.3.2"
+gem "puma", "~> 2.3.2", group: :puma
+gem "unicorn", group: :unicorn
 
 # Haml
 gem 'haml-rails'
